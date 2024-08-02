@@ -1,0 +1,117 @@
+.footer{
+  background: var(--bgDark);
+  padding: 30px 0;
+}
+.footer .mainFooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+}
+.footer .mainFooter .left{
+  display: flex;
+  flex-direction: column;
+}
+.footer .mainFooter .left img{
+  width: 250px;
+  margin-bottom: 30px;
+}
+.footer .mainFooter .left p{
+  color: var(--secondaryDark);
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.footer .mainFooter .left h6{
+  color: var(--primaryDark);
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.footer .mainFooter .center{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 30%;
+}
+.footer .mainFooter .center div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .mainFooter .center div h5{
+  color: var(--primaryDark);
+  font-size: 16px;
+}
+.footer .mainFooter .center div ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+.footer .mainFooter .center div li a{
+  text-decoration: none;
+  color: var(--secondaryDark);
+  font-size: 14px;
+}
+.footer .mainFooter .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+.footer .mainFooter .right div{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+  height: 50%;
+}
+.footer .mainFooter .right .links:nth-child(2){
+  align-items: end;
+  justify-content: center;
+}
+.footer .mainFooter .right div img:nth-child(1){
+  width: 80px;
+}
+.footer .mainFooter .right div img:nth-child(2){
+  width: 200px;
+}
+.footer .mainFooter .right div div i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primaryLight);
+  width: 100%;
+  height: 100%;
+}
+.footer .mainFooter .right div div{
+  background: var(--primaryDark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.lang .mainLang{
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lang .mainLang p{
+  font-size: 12px;
+  color: var(--secondaryDark);
+}
+.lang .mainLang select,
+.lang .mainLang select:focus-visible,
+.lang .mainLang select:focus{
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+}

@@ -1,0 +1,73 @@
+.new .mainNew{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.new .mainNew h1{
+  margin: 50px 0 20px 0;
+  font-size: 38px;
+}
+.new .mainNew .articles{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+}
+.new .mainNew .articles {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 50px;
+}
+.new .mainNew .articles h6{
+  color: var(--blue);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+}
+.new .mainNew .articles p{
+  color: var(--secondaryDark);
+  font-size: 14px;
+}
+.new .mainNew .articles .left,
+.new .mainNew .articles .right,
+.new .mainNew .articles .center div,
+.new .mainNew .articles .left div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  justify-content: space-between;
+}
+.new .mainNew .articles .left h5{
+  color: var(--primaryDark);
+  font-size: 16px;
+}
+.new .mainNew .articles .left div img{
+  width: 300px;
+  height: 150px;
+}
+.new .mainNew .articles .center div{
+  align-items: center;
+  text-align: center;
+}
+.new .mainNew .articles .center div img{
+  width: 600px;
+  height: 300px;
+}
+.new .mainNew .articles .center h5{
+  color: var(--primaryDark);
+  font-size: 22px;
+}
+.new .mainNew .articles .right div{
+  display: flex;
+  align-items: center;
+}
+.new .mainNew .articles .right div img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.new .mainNew .articles .right div h5{
+  font-size: 12px;
+}

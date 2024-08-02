@@ -1,0 +1,76 @@
+body {
+  overflow-x: hidden;
+}
+.service{
+  background: url('../../Photo/black.jpg');
+  margin-bottom: 30vh;
+  height: 40vh;
+}
+.service .mainService{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+.service .mainService h3{
+  color: var(--primaryLight);
+  margin-top: 50px;
+  font-size: 34px;
+}
+.service .mainService .arrow{
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+.service .mainService .arrow i{
+  font-size: 22px;
+}
+.service .mainService .serItems{
+  position: absolute;
+  bottom: -100px;
+  display: flex;
+  gap: 20px;
+  transition: 0.5s;
+  padding-top: 30px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.service .mainService .serItems .item{
+  padding: 40px;
+  position: relative;
+  height: 200px;
+  width: 350px;
+  background: var(--bgDark);
+}
+.service .mainService .serItems .item i{
+  position: absolute;
+  top: -30px;
+  left: 40px;
+  font-size: 30px;
+  padding: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: #fff;
+  color: var(--blue);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 3px 0px #999;
+}
+.service .mainService .serItems .item h6{
+  font-size: 24px;
+  color: var(--primaryDark);
+  margin: 10px 0 20px 0;
+}
+.service .mainService .serItems .item p{
+  font-size: 12px;
+  letter-spacing: 0.9px;
+  color: var(--secondaryDark);
+}

@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+:root{
+  --blue: #0f75bd;
+  --brown: #a97b50;
+  --primaryDark: #292624;
+  --secondaryDark: #7f7d7c;
+  --primaryLight: #fff;
+  --bgDark: #F3F3F5;
+}
+.container {
+  padding: 0 115px;
+  height: 100%;
+}

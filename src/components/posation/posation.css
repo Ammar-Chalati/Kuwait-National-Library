@@ -1,0 +1,38 @@
+.posation{
+  width: 100%;
+  /* height: 30vh; */
+  background: url('../../Photo/blue.jpg');
+}
+.posation .mainPos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primaryLight);
+  gap: 50px;
+}
+.posation .mainPos div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+}
+.posation .mainPos div i{
+  font-size: 40px;
+}
+.posation .mainPos div .title{
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0;
+  margin: 0;
+  letter-spacing: 0.75px;
+}
+.posation .mainPos div .title h4{
+  font-size: 16px;
+  font-weight: bold;
+}
+.posation .mainPos div .title p{
+  font-size: 12px;
+  font-weight: normal;
+}
